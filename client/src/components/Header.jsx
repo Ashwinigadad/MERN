@@ -19,8 +19,8 @@ export default function Header() {
             className='hidden lg-inline'
             />
         </form>
-        {/* <Button className='w-10 h-10' color='red' pill-rounded > */}
-        <Button className='w-20 h-10 bg-gray-500 rounded-full inline-flex items-center justify-center'>
+
+        <Button className='w-20 h-10 lg:hidden' color='gray' pill>
           <AiOutlineSearch/>
         </Button >
 
