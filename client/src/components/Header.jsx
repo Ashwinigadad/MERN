@@ -1,7 +1,7 @@
 import { Button, Navbar, TextInput } from 'flowbite-react'
 import {Link} from 'react-router-dom'
 import {AiOutlineSearch } from 'react-icons/ai'
-import React from 'react'
+import {FaMoon} from 'react-icons/fa'
 
 export default function Header() {
   return (
@@ -20,11 +20,16 @@ export default function Header() {
             />
         </form>
 
-        <Button className='w-20 h-10 lg:hidden' color='gray' pill>
+        <Button className='w-20 h-10'>
           <AiOutlineSearch/>
         </Button >
+        <div className=''>
+          <Button>
+            <FaMoon/>
+          </Button>
+        </div>
 
       </Navbar>
     </div>
-  )
+  );
 }
